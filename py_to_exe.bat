@@ -21,6 +21,7 @@ RMDIR /S /Q "__pycache__"
 move "dist\%c%.exe" "%cd%"
 RMDIR /S /Q "dist"
 del %c%.spec
+del README.md
 
 cls
 set /P c=delete the "py_to_exe" files [Y/N]?
